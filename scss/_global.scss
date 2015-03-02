@@ -1,0 +1,22 @@
+/* 
+ *  Global Styles
+ */
+
+*{
+  &, 
+  &:before, 
+  &:after{
+    box-sizing: border-box;
+  }
+  & + &{
+    margin-top: kunit(1);
+  }
+}
+
+@mixin cf{
+  &:after{
+      content:"";
+      display:table;
+      clear:both;
+  }
+}

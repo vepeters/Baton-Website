@@ -1,0 +1,88 @@
+/* 
+ *  Components
+ */
+
+// Nav
+// ======
+//
+// Nav abstraction as per: csswizardry.com/2011/09/the-nav-abstraction
+
+.nav{
+  list-style:none;
+  margin-left:0;
+  @include cf;
+  > li{
+    &,
+    > a{
+      display:inline-block;
+     //display:inline;
+      zoom:1;
+    }
+  }
+}
+
+// Throws the list into vertical mode, e.g.:
+.nav-stacked{
+  > li{
+    display:list-item;
+    > a{
+      display:block;
+    }
+  }
+}
+
+// Force a nav to occupy 100% of the available width of its parent. Extends
+.nav-fit{
+  display:table;
+  width:100%;
+  > li{
+    display:table-cell;
+    > a{
+        display:block;
+    }
+  }
+}
+
+
+// Media Object
+// ==============
+//
+// Place any image- and text-like content side-by-side, as per:
+// stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code
+// E.g.:
+//
+// <div class="media">
+//     <img src=http://placekitten.com/200/300 alt="" class="media-img">
+//     <p class="media-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+//     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+// </div>
+//
+///
+.media{
+    display:block;
+    @include cf;
+}
+  .media-img{
+      float:left;
+      margin-right: kunit(1);
+  }
+  /////
+   // Reversed image location (right instead of left).
+   ///
+  .media-img-rev{
+      float:right;
+      margin-left: kunit(1);
+  }
+
+      .media-img img,
+      .media-img-rev img{
+          display:block;
+      }
+
+  .media-body{
+      overflow:hidden;
+  }
+      .media-body,
+      .media-body > :last-child{
+          margin-bottom:0;
+      }

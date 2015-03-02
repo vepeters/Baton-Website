@@ -1,0 +1,229 @@
+/*Body and paragraph styles*/
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 0;
+}
+
+
+h1 {
+	font-weight: 200;
+	font-size: 40px;
+	line-height: 1;
+}
+
+h2 {
+	font-style: italic;
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: #0b2d4d;
+}
+
+h4 {
+	margin-bottom: 0px;
+}
+
+h3 {
+	margin-left: 0px;
+	display: inline-block;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+
+
+
+/*Navigation*/
+
+.logo:before {
+	background: url(../assets/logo_small.png) no-repeat 0 0;
+	content: '';
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	height: 50px;
+	width: 50px;
+}
+
+.logo {
+	display: inline-block;
+	color: #3d3e3e;
+}
+
+nav {
+	margin-top: 35px;
+	margin-right: auto;
+	text-align: center;
+}
+
+nav a {
+	color: #3d3e3e;
+	text-decoration: none;
+}
+
+
+/*intro*/
+
+.intro {
+	background: url(../assets/tablet_blue_dark.png) no-repeat center;
+	background-color: #0b2d4d;
+	height: 400px;
+}
+
+/*About*/
+
+.about h1 {
+	color: #0b2d4d;
+	margin-top: 80px;
+}
+
+.about p {
+	color: #3d3e3e;
+}
+
+.about:after{
+	margin-bottom: 50px;
+}
+
+
+/*News*/
+
+.news {
+	background-color: #f2f2f2;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.news h1 {
+	color: #3d3e3e;
+}
+
+/*Team*/
+
+.team h1 {
+	text-align: center;
+	color: #0b2d4d;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.team_pics img {
+	width: 100%;
+	border: 2px solid #f2f2f2;
+	border-radius: 100%;
+	float: left;
+	display: block;
+}
+
+.member {
+	display: block;
+	float: left;
+	margin-bottom: 80px;
+}
+
+
+
+
+
+
+/* Mobile only */
+@media screen and (max-width: 739px) {
+
+	.nav {
+		display: none;
+	}
+
+	
+	.intro {
+		background-position: 30% 0%;
+	}
+
+	.intro_body {
+		margin-top: 50px;
+		color: #fff;
+	}
+}
+
+/*Tablet*/
+@media screen and (min-width: 740px) {
+	.nav {
+		margin-right: 80px;
+
+	}
+
+	nav {
+		text-align: right;
+	}
+	
+	/*intro*/
+
+	.intro {
+		background-position: right;
+	}
+
+	.intro_body {
+	margin-top: 90px;
+	color: #fff;
+	}
+
+	.team_pics img {
+	margin-top: 20px;
+	}
+
+	.about {
+		text-align: center;
+
+	}
+
+}
+
+@media screen and (min-width: 740px) and (max-width: 980px) { 	
+
+}
+
+/*Screen*/
+@media screen and (min-width: 980px) {
+	
+	nav {
+		text-align: left;
+	}
+	
+	.nav {
+		margin-right: 120px;
+
+	}
+
+
+	.team_pics img {
+		margin: 0;
+	}
+
+	.member .jud {
+		margin-top: 15px;
+	}
+
+	.team h1 {
+		margin-bottom: 80px;
+	}
+
+
+}
+
+@media screen and (min-width: 1220px) {
+
+	.intro {
+		background-position: 70% 0%;
+	}
+
+	.team_pics img {
+	margin-right: 130px;
+	width: 100px;
+	height: 100px;
+	}
+
+}
+
+/*Ginourmous Screen &shrugs; */
