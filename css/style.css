@@ -92,13 +92,17 @@ nav a {
 /*News*/
 
 .news {
-	background-color: #f2f2f2;
+	background-color: #b3b3b3;
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
 
 .news h1 {
-	color: #3d3e3e;
+	color: #fff;
+}
+
+.news p {
+	color: #fff;
 }
 
 /*Team*/
