@@ -54,9 +54,14 @@ p {
 }
 
 nav {
-	margin-top: 35px;
-	margin-right: auto;
-	text-align: center;
+	margin: 35px;
+	text-align: right;
+	width: 100%;
+}
+
+.nav {
+	margin-left: 5%;
+	margin-right: 10%;
 }
 
 nav a {
@@ -104,6 +109,12 @@ nav a {
 .news p {
 	color: #fff;
 }
+
+.news a { 
+	color: #fdd00e;
+
+}
+
 
 /*Team*/
 
@@ -153,14 +164,6 @@ nav a {
 
 /*Tablet*/
 @media screen and (min-width: 740px) {
-	.nav {
-		margin-right: 80px;
-
-	}
-
-	nav {
-		text-align: right;
-	}
 	
 	/*intro*/
 
@@ -191,15 +194,6 @@ nav a {
 /*Screen*/
 @media screen and (min-width: 980px) {
 	
-	nav {
-		text-align: left;
-	}
-	
-	.nav {
-		margin-right: 120px;
-
-	}
-
 
 	.team_pics img {
 		margin: 0;
