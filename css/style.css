@@ -20,6 +20,7 @@ h2 {
 
 h4 {
 	margin-bottom: 0px;
+	color: #0b2d4d;
 }
 
 h3 {
@@ -119,8 +120,12 @@ nav a {
 
 .team h1 {
 	text-align: left;
-	color: #0b2d4d;
+	color: #fdd00e;
 	margin: 60px 0px;
+}
+
+.team p {
+	color: #3d3e3e;
 }
 
 .team_pics img {
@@ -155,7 +160,6 @@ nav a {
 	
 	.team h1 {
 		text-align: center;
-		color: #0b2d4d;
 		margin: 50px 0px;
 	}
 
@@ -217,7 +221,6 @@ nav a {
 
 	.team h1 {
 	text-align: left;
-	color: #0b2d4d;
 	margin-top: 90px;
 	}
 
