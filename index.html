@@ -161,13 +161,46 @@
         </script>
          -->
 
-        <footer id="Contact">
+        <div class="Contact">
             <div class="row">
-                <div class="centered mobile-full tablet-full desktop-10 desktop-push-1 max-8 max-push-1">
-                    <h1>Contact Us</h1>
-                    <p>To learn more about Baton, please email us at 
-                        <a href="mailto:support@batonhandoff.com" Subject="" target="_top">support@batonhandoff.com</a>
-                    </p>
+                <div class="centered mobile-full tablet-full desktop-8 desktop-push-1 max-8 max-push-1">
+                    <h1>Contact Us</h1>   
+                    <form action="html_form_send.php" method="post">
+                        <div>
+                            <label for="name"></label>
+                            <input type="text" id="name"/ placeholder="Name"/>
+                        </div>
+                        <div>
+                            <label for="email"></label>
+                            <input type="email" id="mail" placeholder="E-mail"/>
+                        </div>
+                        <div class="message">
+                            <label for="message"></label>
+                            <textarea id="message"></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send your message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="row">
+                <div class="mobile-full tablet-full desktop-half footer_left">
+                    <p class="copyright">&copy; 2015 Baton</p>
+                    <a href="mailto:support@batonhandoff.com" class="email">support@batonhandoff.com</a>
+                </div>
+                <div class="mobile-full tablet-half desktop-4 right">
+                    <ul class="footer_social">
+                        <li>
+                            <a href="https://www.linkedin.com/company/9286232?trk=tyah&trkInfo=clickedVertical%3Acompany%2Cidx%3A1-1-1%2CtarId%3A1432052775134%2Ctas%3Abaton%20handoff" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/batonhandoff" class="twitter">Twitter</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>
