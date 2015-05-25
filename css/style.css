@@ -65,8 +65,8 @@ nav {
 }
 
 .nav {
-	margin-left: 5%;
-	margin-right: 10%;
+	margin-left: 0%;
+	margin-right: 8%;
 }
 
 nav a {
@@ -181,7 +181,7 @@ color: gold;
 
 /*Contact Us*/
 
-.Contact {
+#Contact {
 	background-color: #B2B2B2;
 	width: 100%;
 	color: #fff;
@@ -189,7 +189,7 @@ color: gold;
 	text-align: center;
 }
 
-.Contact h1 {
+#Contact h1 {
 	font-size: 28px;
 	margin-bottom: 10px;
 
@@ -228,7 +228,7 @@ input, textarea {
   -o-transition: all 0.30s ease-in-out;
 }
 
-.Contact input:focus, textarea:focus {
+#Contact input:focus, textarea:focus {
   box-shadow: 0 0 5px #fff;
   border: 1px solid #fff;
 }
